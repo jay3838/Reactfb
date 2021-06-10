@@ -1,0 +1,45 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    /* background-color: lightcyan; */
+    height: 100vh;
+
+}
+.app__msgheader{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.app__header > img{
+    object-fit: contain;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 99%;
+    border: 1px solid gray;
+}
+.app__main{
+    /* border: 1px solid red; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app__message{
+    border: 1px solid blue;
+    width: 70%;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    overflow: scroll;    
+}
+.app__message::-webkit-scrollbar {
+    display: none;
+}
+.app__msgheader{
+    display: flex;
+    justify-content: center;
+}

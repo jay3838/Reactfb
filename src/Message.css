@@ -1,0 +1,21 @@
+
+.msg{
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.msg__user{
+  margin-left:auto;
+ text-align:left !important;
+}
+
+.msg__usercard{
+    background-color: blue !important;
+    color:white !important;
+  }
+.msg__gestcard{
+    background-color: green !important;
+    color:white !important;
+  }
